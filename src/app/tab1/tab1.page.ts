@@ -10,4 +10,8 @@ export class Tab1Page {
 
   constructor() {}
 
+  logCustomEvent() {
+    console.log("log custom event")
+  }
+
 }
