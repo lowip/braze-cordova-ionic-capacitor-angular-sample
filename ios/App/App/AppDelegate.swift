@@ -1,5 +1,8 @@
 import UIKit
 import Capacitor
+// If you need access to the Braze SDK instance, import the `CordovaPluginsStatic` module.
+// To access the Braze SDK instance, use the `BrazePlugin.braze()` method.
+import CordovaPluginsStatic
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
