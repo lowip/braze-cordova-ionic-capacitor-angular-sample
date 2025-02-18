@@ -13,6 +13,8 @@ PODS:
     - Capacitor
   - CapacitorKeyboard (7.0.0):
     - Capacitor
+  - CapacitorPushNotifications (7.0.0):
+    - Capacitor
   - CapacitorStatusBar (7.0.0):
     - Capacitor
   - CordovaPluginsStatic (7.0.1):
@@ -27,6 +29,7 @@ DEPENDENCIES:
   - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
   - "CapacitorHaptics (from `../../node_modules/@capacitor/haptics`)"
   - "CapacitorKeyboard (from `../../node_modules/@capacitor/keyboard`)"
+  - "CapacitorPushNotifications (from `../../node_modules/@capacitor/push-notifications`)"
   - "CapacitorStatusBar (from `../../node_modules/@capacitor/status-bar`)"
   - CordovaPluginsStatic (from `../capacitor-cordova-ios-plugins`)
 
@@ -47,6 +50,8 @@ EXTERNAL SOURCES:
     :path: "../../node_modules/@capacitor/haptics"
   CapacitorKeyboard:
     :path: "../../node_modules/@capacitor/keyboard"
+  CapacitorPushNotifications:
+    :path: "../../node_modules/@capacitor/push-notifications"
   CapacitorStatusBar:
     :path: "../../node_modules/@capacitor/status-bar"
   CordovaPluginsStatic:
@@ -56,14 +61,15 @@ SPEC CHECKSUMS:
   BrazeKit: 6ad539cc8cfd2760c0e1974df17362b8a5c97dbc
   BrazeLocation: e84bbd252a7629e170fab497f7bf20b1ee8ce399
   BrazeUI: 6516c7a30396a3b338a685f9b79beea8204ff3ea
-  Capacitor: 23fff43571a4d1e3ee7d67b5a3588c6e757c2913
-  CapacitorApp: 45cb7cbef4aa380b9236fd6980033eb5cde6fcd2
+  Capacitor: de199cba6c8b20995428ad0b7cb0bc6ca625ffd4
+  CapacitorApp: 9cb31064a6c6bb2b1438583733a7bf45557fc1da
   CapacitorCordova: 63d476958d5022d76f197031e8b7ea3519988c64
-  CapacitorHaptics: 1fba3e460e7614349c6d5f868b1fccdc5c87b66d
-  CapacitorKeyboard: 2c26c6fccde35023c579fc37d4cae6326d5e6343
-  CapacitorStatusBar: 438e90beeeefa8276b24e6c5991cb02dd13e51bf
-  CordovaPluginsStatic: 4dd9b1a76217d3c630591d3b87b6c9486c6d08c3
+  CapacitorHaptics: 7be406a91e4eb87287f321c6c68e1709d6837b3a
+  CapacitorKeyboard: 4db71e694e7afb5d7c0be09b05495c19f7d6c914
+  CapacitorPushNotifications: 2e0132cd2f1a5d696bcbfc3725c2b6ffcb9275d4
+  CapacitorStatusBar: a8c4c83ed2e973bdafb979e80e4b00d027832cb7
+  CordovaPluginsStatic: 69db13974334532e63fe4e729f5375ccd0e87c48
 
-PODFILE CHECKSUM: 2fde40b4adb26836a809ff586d1909a3f8a5ee54
+PODFILE CHECKSUM: a5489aa241a25b66194f14e486c48e4c785f534c
 
-COCOAPODS: 1.16.1
+COCOAPODS: 1.16.2
